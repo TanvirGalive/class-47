@@ -1,0 +1,111 @@
+/* Base CSS */
+@import url('https://fonts.googleapis.com/css?family=Droid+Serif:400,400i,700,700i|Roboto:300,300i,400,400i,500,500i,700,700i');
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:hover, a:focus{
+    text-decoration: none;
+}
+input:focus, textarea:focus, button:focus {outline: none}
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Droid Serif', serif;
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+}
+a:hover { text-decoration: none }
+
+.testimonial-bg {background-image: url(../img/testimonial-slider-background-black-1.jpg)}
+
+
+.section-padding {
+  padding: 100px 0;
+}
+.testimonial-bg {
+    background-size: cover;
+    background-position: center center;
+    background-color: #333;
+    color: #fff;
+}
+.user-avatar img {
+  max-width: 100px;
+  border-radius: 50%;
+}
+.user-avatar {
+  text-align: center;
+  margin-bottom: 30px;
+}
+.user-avatar img {
+  margin: 0 auto;
+}
+.testimonial-content {
+  font-size: 18px;
+  line-height: 28px;
+  font-style: italic;
+  font-weight: 700;
+}
+.single-tstimonial-item h4 {
+    opacity: 0.7;
+    margin-top: 30px;
+    margin-bottom: ;
+    margin-bottom: 0;
+}
+.single-tstimonial-item h4 span {
+  display: block;
+  font-size: 80%;
+  font-weight: 400;
+  margin-top: 8px;
+}
+.single-tstimonial-item {
+  text-align: center;
+}
+.testimonial-carousel .owl-dots div{
+    height: 15px;
+    width: 15px;
+    display: inline-block;
+    background:#2e4450;
+    border-radius: 50%;
+    margin: 5px;
+}
+.testimonial-carousel .owl-dots div.active{
+    background: #fff;
+}
+.testimonial-carousel .owl-dots {
+    text-align: center;
+    margin-top: 40px;
+}
+.testimonial-carousel:before, .testimonial-carousel:after{
+    font-family: fontawesome;
+    position: absolute;
+    font-size: 27px;
+}
+.testimonial-carousel:before {
+    left: -50px;
+    top: 130px;
+    content: "\f10d";
+}
+.testimonial-carousel:after {
+    right: -50px;
+    bottom: 130px;
+    content: "\f10e";
+}
